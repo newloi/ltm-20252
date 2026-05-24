@@ -1,0 +1,6 @@
+Hello World!
+Welcome to C File Server System.
+Status: Online
+Date: 12/05/2026
+---------------------------------
+Connection established successfully.
