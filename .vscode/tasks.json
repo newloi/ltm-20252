@@ -2,7 +2,7 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"type": "cppbuild",
+			"type": "shell",
 			"label": "C/C++: gcc build active file",
 			"command": "/usr/bin/gcc",
 			"args": [
@@ -10,7 +10,8 @@
 				"-g",
 				"${file}",
 				"-o",
-				"${fileDirname}/${fileBasenameNoExtension}"
+				"${fileDirname}/${fileBasenameNoExtension}",
+				"-pthread"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
